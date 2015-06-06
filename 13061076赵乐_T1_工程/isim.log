@@ -1,0 +1,14 @@
+ISim log file
+Running: C:\Users\dell\Desktop\BUAA2\PROJECT\P5-VerilogHDL-pipeline_CPU-V1\zl-p5\test_mips_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/test_mips_isim_beh.wdb 
+ISim P.68d (signature 0x7708f090)
+This is a Full version of ISim.
+WARNING:  For instance i_ID/i_GPR/, width 1 of formal port gpr_reset is not equal to width 32 of actual constant.
+WARNING: File "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/mips.v" Line 144.  For instance uut/i_MEM_WB/, width 30 of formal port pc_mem is not equal to width 32 of actual signal pc_mem.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 1.00us
+# run 1.00us

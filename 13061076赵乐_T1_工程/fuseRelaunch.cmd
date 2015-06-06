@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/test_mips_isim_beh.exe" -prj "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/test_mips_beh.prj" "work.test_mips" "work.glbl" 

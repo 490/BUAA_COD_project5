@@ -1,0 +1,74 @@
+Running: D:\COD_tools\Xilinx_ISE\Xilinx_ISE_DS\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/test_mips_isim_beh.exe -prj C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/test_mips_beh.prj work.test_mips work.glbl 
+ISim P.68d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/pc_sel.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/pc.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/mux_4_32b.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/mux_3_5b.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/mux_3_32b.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/mux_2_32b.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/im.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/ifzero.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/gpr.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/ext.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/dm.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/control.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/beq_npc.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/alu.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/WB.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/mem_wb.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/MEM.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/if_id.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/IF.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/id_ex.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/ID.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/hazard.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/forward.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/ex_mem.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/EX.v" into library work
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/mips.v" into library work
+WARNING:HDLCompiler:35 - "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/mips.v" Line 55: <tr_rd1_id> is already implicitly declared earlier.
+WARNING:HDLCompiler:35 - "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/mips.v" Line 143: <a3_ex> is already implicitly declared earlier.
+Analyzing Verilog file "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/test_mips.v" into library work
+Analyzing Verilog file "D:/COD_tools/Xilinx_ISE/Xilinx_ISE_DS/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/ID.v" Line 63: Size mismatch in connection of port <gpr_reset>. Formal port size is 1-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:1016 - "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/EX.v" Line 34: Port zero is not connected to this instance
+WARNING:HDLCompiler:189 - "C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/mips.v" Line 180: Size mismatch in connection of port <pc_mem>. Formal port size is 30-bit while actual signal size is 32-bit.
+Completed static elaboration
+Compiling module pc
+Compiling module im
+Compiling module pc_sel
+Compiling module mux_4_32b
+Compiling module IF
+Compiling module if_id
+Compiling module control
+Compiling module gpr
+Compiling module beq_npc
+Compiling module ext
+Compiling module ifzero
+Compiling module mux_3_32b
+Compiling module ID
+Compiling module id_ex
+Compiling module alu
+Compiling module mux_2_32b
+Compiling module mux_3_5b
+Compiling module EX
+Compiling module ex_mem
+Compiling module dm
+Compiling module MEM
+Compiling module mem_wb
+Compiling module WB
+Compiling module hazard
+Compiling module forward
+Compiling module mips
+Compiling module test_mips
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 19 sub-compilation(s) to finish...
+Compiled 28 Verilog Units
+Built simulation executable C:/Users/dell/Desktop/BUAA2/PROJECT/P5-VerilogHDL-pipeline_CPU-V1/zl-p5/test_mips_isim_beh.exe
+Fuse Memory Usage: 29564 KB
+Fuse CPU Usage: 670 ms
